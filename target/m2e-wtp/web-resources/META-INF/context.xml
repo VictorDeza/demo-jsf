@@ -1,0 +1,9 @@
+<Context>
+
+	<Resource url="jdbc:postgresql://localhost:5432/bd_test"
+		driverClassName="org.postgresql.Driver" password="postgres"
+		username="postgres" maxWait="10000" maxIdle="5" maxActive="20"
+		type="javax.sql.DataSource" auth="Container"
+		name="jdbc/crud_jsf" />
+
+</Context>
